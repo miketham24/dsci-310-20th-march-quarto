@@ -1,3 +1,5 @@
+.PHONY: render clean
+
 render:
 	quarto render
 	touch docs/ .nojekyll
